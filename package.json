@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gkubisa/bunyan-config.git"
+    "url": "git+https://github.com/LSEducation/bunyan-config.git"
   },
   "keywords": [
     "bunyan",
@@ -17,9 +17,9 @@
   "author": "Greg Kubisa <gkubisa@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gkubisa/bunyan-config/issues"
+    "url": "https://github.com/LSEducation/bunyan-config/issues"
   },
-  "homepage": "https://github.com/gkubisa/bunyan-config#readme",
+  "homepage": "https://github.com/LSEducation/bunyan-config#readme",
   "dependencies": {
     "extend": "^3.0.0"
   },
