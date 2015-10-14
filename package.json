@@ -1,6 +1,6 @@
 {
   "name": "bunyan-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Converts JSON configuration into a proper bunyan configuration object.",
   "main": "index.js",
   "scripts": {
