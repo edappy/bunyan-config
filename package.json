@@ -1,0 +1,32 @@
+{
+  "name": "bunyan-config",
+  "version": "0.1.0",
+  "description": "Converts JSON configuration into a proper bunyan configuration object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -r ./test/init.js './test/**/*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkubisa/bunyan-config.git"
+  },
+  "keywords": [
+    "bunyan",
+    "config"
+  ],
+  "author": "Greg Kubisa <gkubisa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkubisa/bunyan-config/issues"
+  },
+  "homepage": "https://github.com/gkubisa/bunyan-config#readme",
+  "dependencies": {
+    "extend": "^3.0.0"
+  },
+  "devDependencies": {
+    "bunyan-logstash": "^0.3.4",
+    "bunyan-redis": "^0.1.4",
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
+}
