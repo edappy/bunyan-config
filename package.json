@@ -21,12 +21,17 @@
   },
   "homepage": "https://github.com/LSEducation/bunyan-config#readme",
   "dependencies": {
-    "extend": "^3.0.0"
+    "extend": "^3.0.0",
+    "object-path": "^0.9.2"
+  },
+  "peerDependencies": {
+    "bunyan": "^1.5.1",
+    "bunyan-logstash": "^0.3.4",
+    "bunyan-redis": "^0.1.4"
   },
   "devDependencies": {
-    "bunyan-logstash": "^0.3.4",
-    "bunyan-redis": "^0.1.4",
     "chai": "^3.3.0",
-    "mocha": "^2.3.3"
+    "mocha": "^2.3.3",
+    "bunyan": "^1.5.1"
   }
 }

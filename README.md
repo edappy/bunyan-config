@@ -37,7 +37,18 @@ var jsonConfig = {
                 port: 6379
             }
         }
+    },
+    
+    serializers: {
+        req: 'bunyan:stdSerializers.req',
+        fromNodeModules: 'someNodeModule',
+        fromNodeModulesWithProps: 'someNodeModule:a.b.c',
+        custom: './lib/customSerializers:custom',
+        another: './lib/anotherSerializer',
+        absolutePath: '/path/to/serializer:xyz'
     }
+    // or
+    serializers: 'module:property.parent.child' // relative and absolute module references are also supported
 ]};
 
 var bunyanConfig = require('bunyan-config')(jsonConfig);
@@ -53,3 +64,9 @@ var logger = require('bunyan').createLogger(bunyanConfig);
 - bunyan-redis
 
 Please submit pull requests with support for additional streams.
+
+# Supported serializers
+
+Any serializer exposed as a node module or as a (deep) property on any node module.
+
+Relative module references are resolved from the current working directory.
