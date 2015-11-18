@@ -4,7 +4,8 @@
   "description": "Converts JSON configuration into a proper bunyan configuration object.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha -r ./test/init.js './test/**/*.test.js'"
+    "test": "./node_modules/.bin/mocha -r ./test/init.js './test/**/*.test.js'",
+    "postversion": "git push && git push origin v${npm_package_version}"
   },
   "repository": {
     "type": "git",
