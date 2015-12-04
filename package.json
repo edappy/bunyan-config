@@ -27,6 +27,7 @@
   },
   "peerDependencies": {
     "bunyan": "^1.5.1",
+    "bunyan-logentries": "^1.2.0",
     "bunyan-logstash": "^0.3.4",
     "bunyan-redis": "^0.1.4"
   },
