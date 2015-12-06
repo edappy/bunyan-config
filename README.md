@@ -62,6 +62,7 @@ var logger = require('bunyan').createLogger(bunyanConfig);
 - stderr
 - bunyan-logstash
 - bunyan-redis
+- bunyan-logentries
 
 Please submit pull requests with support for additional streams.
 
